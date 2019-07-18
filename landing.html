@@ -4,88 +4,124 @@ title: home
 permalink: '/'
 ---
 <style>
-.hover-primary:hover {
-    background: #343a40;
-    color: white;
-    transition: background-color .1s linear;
-}
-.pointer:hover {
-    cursor: pointer !important;
-}
+    .hover-primary:hover {
+        background: #343a40;
+        color: white;
+        transition: background-color .1s linear;
+    }
+
+    .pointer:hover {
+        cursor: pointer !important;
+    }
 </style>
 <!-- <div class="container"> -->
-    <div class="bg-light">
-        <div class="container py-4">
-            <div class="row">
-                <div class="col-md-12 d-flex align-items-center justify-content-center"
-                     style="height: 25em">
-                    <div class="text-center">
-                        <h1>TAMBORES LIVRES</h1>
-                        <h3>Tag line</h3>
-                    </div>
+<div class="bg-light">
+    <div class="container py-4">
+        <div class="row">
+            <div class="col-md-12 d-flex align-items-center justify-content-center"
+                style="height: 25em">
+                <div class="text-center">
+                    <h1>TAMBORES LIVRES</h1>
+                    <h3>Site under
+                        construction...</h3>
                 </div>
             </div>
         </div>
     </div>
-    <div class="bg-dark text-light">
-        <div class="container py-4">
-            <div class="row">
-                <div class="col-md-12" style="height: 25em">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <h1>About</h1>
+</div>
+<div class="bg-dark text-light">
+    <div class="container py-4">
+        <div class="row">
+            <div class="col-md-12"
+                style="height: 25em">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1>Press
+                            release</h1>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div>
+                            <p>
+                                Right now, as you are reading this, across London, the UK and in Brazil, a
+                                movement is taking shape. A movement of socially concerned Brazilians and friends
+                                who are determined to shine a light on those that have resisted and continue to
+                                resist.
+                            </p>
+                            <p>
+                                In Brazil, popular culture itself has often been an act of resistance, a forum
+                                where traditions are kept alive, where afro-Brazilian communities stick together
+                                and express their art and culture, overcoming many obstacles and difficulties.
+                            </p>
+                            <p>
+                                Resistance shapes culture and saves communities.
+                            </p>
+                            <p>
+                                So, at the end of last year, several groups, from different Brazilian musical and
+                                cultural traditions, realised that after meeting at socially conscious Brazilian
+                                events and protests at the end of last year, that they needed to express a
+                                heartfelt, explosive, cohesive and artistic message through music, dance and
+                                chants, costumes and banners, placards and movement, and lots of drums, together
+                                at Notting Hill Carnival in 2019.
+                            </p>
+                            <a class="btn btn-light  float-right"
+                                    href="/about">
+                                Read more
+                            </a>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div>
-                                Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                                It has survived not only five centuries, but also the leap into electronic typesetting,
-                                remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset
-                                sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like
-                                Aldus PageMaker including versions of Lorem Ipsum.
-                            </div>
-                        </div>
-                    </div>
+                </div>
 
-                </div>
             </div>
         </div>
     </div>
-    <div class="bg-light text-dark">
-        <div class="container py-4">
-            <div class="row">
-                <div class="col-md-12" style="height: 25em">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <h1 class="float-right">Upcoming events</h1>
-                        </div>
+</div>
+<div class="bg-light text-dark">
+    <div class="container py-4">
+        <div class="row">
+            <div class="col-md-12"
+                style="height: 25em">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 class="float-right">Upcoming
+                            events</h1>
                     </div>
-                    <div class="row d-flex align-items-stretch justify-content-between h-50 mt-4">
-                        {% include hoverable_card.html title='Brasilica'
-                                                       body='Saturday, 26th July<br />
-                                                             <strong>Liverpool</strong>'%}
-                        {% include hoverable_card.html title='Brasilica'
-                                                       body='Saturday, 26th July<br />
-                                                            <strong>Liverpool</strong>'%}
-                        {% include hoverable_card.html title='Brasilica'
-                                                       body='Saturday, 26th July<br />
-                                                            <strong>Liverpool</strong>'%}
-                    </div>
-                    <div class="row mt-4">
-                        <div class="col-md-12">
-                            <div class='float-right'>
-                                <button class="btn btn-dark">
-                                    More events...
-                                </button>
+                </div>
+                <div class="row d-flex align-items-stretch justify-content-between h-50 mt-4">
+                    {% include
+                    hoverable_card.html
+                    title='Brasilica'
+                    body='Saturday,
+                    26th July<br />
+                    <strong>Liverpool</strong>'%}
+                    {% include
+                    hoverable_card.html
+                    title='Brasilica'
+                    body='Saturday,
+                    26th July<br />
+                    <strong>Liverpool</strong>'%}
+                    {% include
+                    hoverable_card.html
+                    title='Brasilica'
+                    body='Saturday,
+                    26th July<br />
+                    <strong>Liverpool</strong>'%}
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-12">
+                        <div class='float-right'>
+                            <button
+                                class="btn btn-dark">
+                                More
+                                events...
+                            </button>
 
-                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+</div>
 <!-- </div> -->

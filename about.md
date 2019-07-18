@@ -74,16 +74,21 @@ To make this happen, the groups will perform separately in their own sections an
 
 ### THE HEROES AND HEROINE, THE BANDS, THE PROCESSION – CARNIVAL!
 
-On the day of the procession, different musical groups with dancers and costume wearers will represent the different heroes.
+On the day of the procession, different musical groups with dancers and costume
+wearers will represent the different heroes.
 
-We are inviting members of the public to get involved… there are workshops in music making, carnival decoration, dance and more.
+We are inviting members of the public to get involved… there are workshops in
+music making, carnival decoration, dance and more.
 
-We are particularly looking for those who want to come out with us in our specially designed t-shirt, to sing and shout, and let it all out in support of conscious and progressive art, culture and life in Brazil, in celebration of resistance, unity and positivity.
+We are particularly looking for those who want to come out with us in our
+specially designed t-shirt, to sing and shout, and let it all out in support of
+conscious and progressive art, culture and life in Brazil, in celebration of
+resistance, unity and positivity.
 
-Get involved, you might end up waering a costume, holding a rope, handing out water, holding a placard.
-<br/>
+Get involved, you might end up waering a costume, holding a rope, handing out
+water, holding a placard.
 
-#### MESTRE MOA
+#### MESTRE MOA
 
 At the front of the parade **Capoeira MarAzul** will lead a berimbau Orchestra to celebrate the life of the great **Mestre Moa do Katende**, who was stabbed and killed in the run up to last’s year’s General Election in Brazil, when he expressed his support for a socially progressive candidate.
 

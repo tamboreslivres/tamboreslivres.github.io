@@ -13,13 +13,28 @@ permalink: /shop
                 <img class="img-fluid"
                      style="cursor: pointer"
                      src="/static/img/tshirt-front-site.png"
-                     onclick="toggle(this)"
-                     width="250px"/>
+                     onclick="toggle(this); toggleDot('#buttonBack')"
+                     width="250px"
+                     id="imgFront"/>
                 <img class="img-fluid"
                      style="cursor: pointer; display: none"
                      src="/static/img/tshirt-back-site.png"
                      width="250px"
-                     onclick="toggle(this)"/>
+                     id="imgBack"
+                     onclick="toggle(this); toggleDot('#buttonFront')"/>
+            </div>
+            <div class="mb-2">
+                <small>
+                    <i class="fas fa-dot-circle"
+                       style="cursor: pointer"
+                       id="buttonFront"
+                       onclick="toggleDot(this); toggle('#imgBack')"></i>
+                       <i class="far fa-dot-circle"
+                          style="cursor: pointer"
+                          id="buttonBack"
+                          onclick="toggleDot(this); toggle('#imgFront')"></i>
+                </small>
+
             </div>
 
         </div>
@@ -62,8 +77,13 @@ permalink: /shop
 <script>
     $('[data-toggle="tooltip"]').tooltip();
     function toggle(e) {
+        console.log(e)
         $(e).hide()
         $(e).siblings().show()
+    }
+    function toggleDot(e) {
+        $(e).removeClass('far').addClass('fas')
+        $(e).siblings().removeClass('fas').addClass('far')
     }
 </script>
 <!--

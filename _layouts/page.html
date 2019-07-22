@@ -3,13 +3,19 @@ layout: default
 title: page
 ---
 <div class="container py-4">
+    {% if page.header %}
     <div class="row">
         <div class="col-md-12">
             <div class="mb-4">
                 <h1 {% if page.bg == 'dark' %} class="text-light"{% endif %}>
-                    {{ page.title }}
+                    {{ page.header }}
                 </h1>
             </div>
+        </div>
+    </div>
+    {% endif %}
+    <div class="row">
+        <div class="col-md-12">
             <div>
                 {{ content }}
             </div>

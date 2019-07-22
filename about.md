@@ -1,6 +1,7 @@
 ---
 layout: page
-title: Press Release
+title: about
+header: Press Release
 permalink: /about
 ---
 <div class="mb-4 text-center">

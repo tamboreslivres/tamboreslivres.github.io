@@ -1,5 +1,6 @@
 ---
-title: Calendar of events
+title: events
+header: Calendar of events
 layout: page
 permalink: /events
 ---

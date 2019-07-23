@@ -7,7 +7,7 @@ permalink: /about
 <div class="mb-4 text-center">
     <h1>“HEROES AND HEROINES OF BRAZILIAN RESISTANCE”</h1>
     <h4 class="text-dark">
-        NEW CARNIVAL BAND — TAMBORES LIVRES —
+        NEW CARNIVAL BAND - TAMBORES LIVRES -
         LAUNCH THEIR THEME FOR THIS YEARS
         <br/> NOTTING HILL CARNIVAL PARADE
     </h4>

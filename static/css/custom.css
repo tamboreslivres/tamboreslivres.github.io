@@ -28,3 +28,55 @@
 .fa-instagram {
  color: #e1306c
 }
+
+@font-face {
+    font-family: Paper;
+    src: url('../../static/fonts/Paper.otf') format("opentype");
+}
+
+@font-face {
+    font-family: ProximaNova;
+    font-weight: regular;
+    src: url('../../static/fonts/ProximaNova/ProximaNova-Regular.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: ProximaNova;
+    font-weight: bold;
+    src: url('../../static/fonts/ProximaNova/ProximaNova-Bold.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: ProximaNova;
+    font-weight: light;
+    src: url('../../static/fonts/ProximaNova/ProximaNova-Light.ttf') format("truetype");
+}
+
+h1 {
+    font-family: Paper;
+    font-size: 36pt;
+}
+
+h2 {
+    font-family: Paper;
+    font-size: 36pt;
+}
+
+h3 {
+    font-family: Paper;
+    font-size: 36pt;
+}
+
+h4 {
+    font-family: Paper;
+    font-size: 36pt;
+}
+
+nav {
+    font-family: Paper;
+    font-size: 18pt
+}
+
+a {
+    color: $orange !important
+}

@@ -7,7 +7,7 @@ permalink: /about
     <h1>“HEROES AND HEROINES OF BRAZILIAN RESISTANCE”</h1>
     <h4 class="text-dark">
         NEW CARNIVAL BAND - TAMBORES LIVRES -
-        LAUNCH THEIR THEME FOR THIS YEARS
+        LAUNCH THEIR THEME FOR THIS YEAR'S
         <br/> NOTTING HILL CARNIVAL PARADE
     </h4>
 </div>
@@ -24,7 +24,9 @@ Tambores Livres will be celebrating the lives and struggles of three Brazilian h
 The money raised from the t-shirts sale will go directly to the project and the surplus will be donated to community projects in the Uk and Brazil.
 
 <div class="text-center my-4">
-    <img src="/static/img/tshirt-front-site.png" height="250px">
+    <a href="/shop">
+        <img src="/static/img/tshirt-front-site.png"
+             height="250px" /></a>
 </div>
 
 ### HOW TO GET INVOLVED

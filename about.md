@@ -11,7 +11,7 @@ permalink: /about
         <br/> NOTTING HILL CARNIVAL PARADE
     </h4>
 </div>
-[**JOIN US**](contact) at *Notting Hill Carnival* in a vibrant Brazilian style parade for democracy and human rights.
+[**JOIN US**](join) at *Notting Hill Carnival* in a vibrant Brazilian style parade for democracy and human rights.
 
 Across London a movement is taking shape. A movement of socially concerned Brazilians and people of all corners of the world who are determined to shine a light on those that have resisted and continue to fight for rights and democracy.
 

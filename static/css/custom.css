@@ -80,3 +80,18 @@ nav {
 a {
     color: $orange !important
 }
+
+
+.nav-pills > .nav-link.active {
+    color: #012d39 !important
+}
+
+.nav.flex-column.nav-pills {
+    text-align: right !important
+}
+
+@media (max-width: 768px) {
+    .nav.flex-column.nav-pills {
+        text-align: center !important
+    }
+}

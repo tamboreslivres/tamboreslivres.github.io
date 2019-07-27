@@ -49,7 +49,7 @@ to have been the leader of a battalion of indigenous and mixed-race fighters in
 Bahia during the war for independence against the Portuguese.
 He is celebrated as a symbol of the independence of Bahia, but more than this,
 he is commemorated as a symbol to remember the forgotten soldiers,
-batalions of indigenous fighters using tribal weapons, the African slaves and free men,
+battalions of indigenous fighters using tribal weapons, the African slaves and free men,
 the poor and isolated communities that organised themselves to form the majority
 of the troops fighting for liberation.
 

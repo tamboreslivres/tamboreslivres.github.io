@@ -76,31 +76,31 @@ var googleFormUrl = "https://docs.google.com/forms/d/e/1FAIpQLSe7FNYHEhqcJaWqZRi
 $('document').ready(function(){
     $('#form').on('submit', function(e) {
         e.preventDefault()
-        $.ajax({
-            type: 'POST',
-            url: googleFormUrl,
-            data: $('#form').serialize(),
-            dataType: 'xml',
-            crossDomain: true,
-            contentType: 'application/x-www-form-urlencoded',
-            statusCode: {
-                0: function() {
-                    $('#contactForm').html('<div class="text-success text-center font-weight-bold">Thanks for joining us! <i class="fas fa-drum"></i></div>')
-                },
-                200: function() {
-                    $('#contactForm').html('<div class="text-success text-center font-weight-bold">Thanks for joining us! <i class="fas fa-drum"></i></div>')
-                },
-                400: function() {
-                    $('#contactFormError').fadeIn(100)
-                },
-                320: function() {
-                    $('#contactFormError').fadeIn(100)
-                },
-                404: function() {
-                    $('#contactFormError').fadeIn(100)
-                }
-            }
-        })
+        // $.ajax({
+        //     type: 'POST',
+        //     url: googleFormUrl,
+        //     data: $('#form').serialize(),
+        //     dataType: 'xml',
+        //     crossDomain: true,
+        //     contentType: 'application/x-www-form-urlencoded',
+        //     statusCode: {
+        //         0: function() {
+        //             $('#contactForm').html('<div class="text-success text-center font-weight-bold">Thanks for joining us! <i class="fas fa-drum"></i></div>')
+        //         },
+        //         200: function() {
+        //             $('#contactForm').html('<div class="text-success text-center font-weight-bold">Thanks for joining us! <i class="fas fa-drum"></i></div>')
+        //         },
+        //         400: function() {
+        //             $('#contactFormError').fadeIn(100)
+        //         },
+        //         320: function() {
+        //             $('#contactFormError').fadeIn(100)
+        //         },
+        //         404: function() {
+        //             $('#contactFormError').fadeIn(100)
+        //         }
+        //     }
+        // })
     })
 });
 

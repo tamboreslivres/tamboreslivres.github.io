@@ -16,7 +16,8 @@ title: page
     {% endif %}
     <div class="row">
         <div class="col-md-12">
-            <div>
+            <div {% if page.bg == 'dark' %} class="text-light text-justify"
+                 {% else %} class="text-justify" {% endif %}>
                 {{ content }}
             </div>
         </div>

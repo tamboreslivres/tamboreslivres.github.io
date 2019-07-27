@@ -5,6 +5,104 @@ title: contact
 permalink: /contact
 ---
 <div class="d-flex flex-column align-items-center">
-    <img class="img-fluid" src="/static/img/logo.png" style="max-height: 400px"/>
-    <h1 class="text-light">info@tamboreslivres.co.uk</h1>
+    <img class="img-fluid" src="/static/img/logo.png"
+        style="max-height: 400px" />
+    <h1 class="text-light">
+        <a href="mailto:info@tamboreslivres.co.uk"
+            style="text-decoration: none">info@tamboreslivres.co.uk</a>
+    </h1>
+    <h1 class="text-light">
+        <a href="https://www.facebook.com/Tambores-Livres-392532231396179/"
+            style="text-decoration: none">facebook</a>
+    </h1>
+    <div class="col-md-6 card shadow bg-light p-3 mx-2">
+        <h4 class="text-center">Join us!</h4>
+        <div id="contactForm">
+            <form id="form" action="" enctype="text/plain">
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text bg-transparent border-0 font-weight-bold">Name</span>
+                </div>
+                <input type="text" class="form-control bg-transparent border-0"
+                       placeholder="Your Name"
+                       id="nameInput"
+                       name="entry.2021636713" />
+            </div>
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                    <span class="input-group-text bg-transparent border-0 font-weight-bold">Email*</span>
+                </div>
+                <input type="text" class="form-control bg-transparent border-0"
+                       placeholder="Your Email"
+                       id="emailInput"
+                       name="entry.927898964" required/>
+                <!-- <div class="invalid-feedback">
+                    Please provide an email address.
+                </div> -->
+            </div>
+            <label class="input-group-text bg-transparent border-0 font-weight-bold" for="messageInput">Message</label>
+            <div class="input-group mb-3">
+                <textarea type="text" class="form-control bg-transparent border-0"
+                          style="resize: none; min-height: 100px;"
+                          placeholder="Your Message"
+                          id="messageInput"
+                          name="entry.1688355218"></textarea>
+            </div>
+            <div class="form-grou px-3">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox"
+                           value="I accept" id="TCs"
+                           name="entry.506444698" required>
+                    <label class="form-check-label" for="TCs">
+                        <small>I agree to the <a href="/tcs">terms and conditions.</a></small>
+                    </label>
+                    <!-- <div class="invalid-feedback">
+                        You need to agree to the terms and conditions.
+                    </div> -->
+                </div>
+            </div>
+            <button type="submit" value="Submit" class="btn btn-primary mt-3 float-right">Submit</button>
+            </form>
+            <div id="contactFormError" class="mt-2 text-danger text-center" style="display: none">
+                Something went wrong <i class="fas fa-sad-cry"></i>
+            </div>
+
+        </div>
+    </div>
 </div>
+<script>
+var submitted=false;
+var googleFormUrl = "https://docs.google.com/forms/d/e/1FAIpQLSe7FNYHEhqcJaWqZRibcx0-2GepfdyyBeYre3kt9RFflGLTcw/formResponse"
+
+$('document').ready(function(){
+    $('#form').on('submit', function(e) {
+        e.preventDefault()
+        $.ajax({
+            type: 'POST',
+            url: googleFormUrl,
+            data: $('#form').serialize(),
+            dataType: 'xml',
+            crossDomain: true,
+            contentType: 'application/x-www-form-urlencoded',
+            statusCode: {
+                0: function() {
+                    $('#contactForm').html('<div class="text-success text-center font-weight-bold">Thanks for joining us! <i class="fas fa-drum"></i></div>')
+                },
+                200: function() {
+                    $('#contactForm').html('<div class="text-success text-center font-weight-bold">Thanks for joining us! <i class="fas fa-drum"></i></div>')
+                },
+                400: function() {
+                    $('#contactFormError').fadeIn(100)
+                },
+                320: function() {
+                    $('#contactFormError').fadeIn(100)
+                },
+                404: function() {
+                    $('#contactFormError').fadeIn(100)
+                }
+            }
+        })
+    })
+});
+
+</script>

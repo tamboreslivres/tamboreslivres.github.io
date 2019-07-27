@@ -4,6 +4,12 @@
     url: /about
   - title: events
     url: /events
+  - title: collaborators
+    url: /collaborators
+  - title: music
+    url: /music
+  - title: gallery
+    url: /gallery
   - title: shop
     url: /shop
   - title: contact

@@ -64,7 +64,7 @@ You have the right at any time to stop Tambores Livres from contacting you for m
 
 If you no longer wish to be contacted for marketing purposes, please click here.
 
-##What are your data protection rights?
+## What are your data protection rights?
 
 Tambores Livres would like to make sure you are fully aware of all of your data protection rights. Every user is entitled to the following:
 

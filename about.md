@@ -27,6 +27,7 @@ The money raised from the t-shirts sale will go directly to the project and the 
 <div class="text-center my-4">
     <a href="/shop">
         <img src="/static/img/tshirt-front-site.png"
+             srcset="/static/img/tshirt-front-site-sm.png 640w, /static/img/tshirt-front-site.png"
              height="250px" /></a>
 </div>
 

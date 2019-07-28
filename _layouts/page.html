@@ -3,6 +3,13 @@ layout: default
 title: page
 ---
 <div class="container py-4">
+    {% if page.graphics == 'berimbau' %}
+        <img src="/static/img/berimbau-r.png" class="img-fluid" style="height: 500px; position: absolute; right: -85px; top: -10px;"/>
+        <img src="/static/img/berimbau-l.png" class="img-fluid" style="height: 500px; position: absolute; left: -65px; top: -10px;"/>
+    {% elsif page.graphics == 'foliage' %}
+        <img src="/static/img/foliage-r.png" class="img-fluid" style="height: 500px; position: absolute; right: -85px; top: -15px;"/>
+        <img src="/static/img/foliage-l.png" class="img-fluid" style="height: 500px; position: absolute; left: -65px; top: -25px;"/>
+    {% endif %}
     {% if page.header %}
     <div class="row">
         <div class="col-md-12">

@@ -2,17 +2,21 @@
 title: events
 header: Calendar of events
 layout: page
+graphics: foliage
 permalink: /events
 ---
+## Tambores Livres schedule
+{% for event in site.data.events %}
+<span class="date" value="{{event.date}}">**{{event.date | date: '%d %B %Y'}}** — **{{event.name}}** — *{{event.location}}*</span>
+{% endfor %}
+<hr class="my-4"/>
+
 ## Mestre Chacon’s schedule
 {% for event in site.data.chacon-events %}
 <span class="date" value="{{event.date}}">**{{event.date | date: '%d %B %Y'}}** — **{{event.name}}** — *{{event.location}}*</span>
 {% endfor %}
 
-## Tambores Livres schedule – main events
-{% for event in site.data.events %}
-<span class="date" value="{{event.date}}">**{{event.date | date: '%d %B %Y'}}** — **{{event.name}}** — *{{event.location}}*</span>
-{% endfor %}
+
 
 <script>
 function dimDate() {

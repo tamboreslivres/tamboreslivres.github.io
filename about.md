@@ -1,6 +1,7 @@
 ---
 layout: page
 title: about
+graphics: berimbau
 permalink: /about
 ---
 <div class="mb-4 text-center">

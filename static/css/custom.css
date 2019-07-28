@@ -86,12 +86,17 @@ a {
     color: #012d39 !important
 }
 
-.nav.flex-column.nav-pills {
+.nav.flex-column.nav-pills, .title-right {
     text-align: right !important
 }
 
 @media (max-width: 768px) {
-    .nav.flex-column.nav-pills {
+    .nav.flex-column.nav-pills, .title-right {
         text-align: center !important
     }
+}
+
+
+.bg-yellow {
+    background-color: #fabf19 !important;
 }

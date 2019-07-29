@@ -9,6 +9,7 @@ permalink: /events
 {% for event in site.data.events %}
 <span class="date" value="{{event.date}}">**{{event.date | date: '%d %B %Y'}}** — **{{event.name}}** — *{{event.location}}*</span>
 {% endfor %}
+*Address for ~~Maxilla~~: Maxilla Hall Social Club, 2 Maxilla walk,W10 6SW, Hall under the A40 highway, Tube: Latimer Road or Ladbroke Grove 
 <hr class="my-4"/>
 
 ## Mestre Chacon’s schedule

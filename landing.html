@@ -171,21 +171,36 @@ permalink: '/'
                         <div class="p-3 mx-auto my-auto"
                              style="position: relative; height: 350px; width: 350px"
                              onclick="showHero()">
-                                <img src='/static/img/heroes-dim.png'
-                                     class="img-fluid" style="max-height: 320px; position: absolute; right: 0px;"/>
-                                <img id="imgMarielle"
-                                     class="img-fluid" style="max-height: 320px; position: absolute; right: 0px;"
-                                     src='/static/img/marielle.png'/>
-                                <img id="imgMestre"
-                                     src='/static/img/mestre.png'
-                                     class="img-fluid" style=" display: none; max-height: 320px; position: absolute; right: 0px;"/>
-                                <img id="imgCaboclo"
-                                     src='/static/img/caboclo.png'
-                                     class="img-fluid" style="display: none; max-height: 320px; position: absolute; right: 0px;"/>
+                            <img src='/static/img/heroes-dim.png'
+                                 class="img-fluid" style="max-height: 320px; position: absolute; right: 0px;"/>
+                            <img id="imgMarielle"
+                                 class="img-fluid" style="max-height: 320px; position: absolute; right: 0px;"
+                                 src='/static/img/marielle.png'/>
+                            <img id="imgMestre"
+                                 src='/static/img/mestre.png'
+                                 class="img-fluid" style=" display: none; max-height: 320px; position: absolute; right: 0px;"/>
+                            <img id="imgCaboclo"
+                                 src='/static/img/caboclo.png'
+                                 class="img-fluid" style="display: none; max-height: 320px; position: absolute; right: 0px;"/>
+                            <div style="position: absolute; bottom: 35px; left: 47%;">
+                                <small>
+                                    <i class="fas fa-dot-circle"
+                                       style="cursor: pointer"
+                                       onclick="nextHero()"
+                                       id="btnMarielle"></i>
+                                    <i class="far fa-dot-circle"
+                                       style="cursor: pointer"
+                                       onclick="nextHero()"
+                                       id="btnMestre"></i>
+                                    <i class="far fa-dot-circle"
+                                       style="cursor: pointer"
+                                       onclick="nextHero()"
+                                       id="btnCaboclo"></i>
+                                </small>
+                            </div>
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
     </div>
@@ -234,7 +249,8 @@ function showHero() {
     i = (i + 1) % heroes.length
     $('#img' + heroes[i]).fadeOut(250, () => {$('#img' + heroes[(i + 1) % heroes.length]).fadeIn(250)})
     $('#text' + heroes[i]).fadeOut(250, () => {$('#text' + heroes[(i + 1) % heroes.length]).fadeIn(250)})
-
+    $('#btn' + heroes[i]).removeClass('far').addClass('fas')
+    $('#btn' + heroes[i]).siblings().removeClass('fas').addClass('far')
 };
 $(document).ready(() => {
     setInterval(function(){showHero()}, 20000);

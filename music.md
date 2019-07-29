@@ -11,7 +11,7 @@ with support from: **Sam Alexander** from Baque Axe, **Marcus Santana**
 from Tribo and **Manjericão** from Grove Capoeira.
 
 <div class="text-center" style="margin-top: 4rem; margin-bottom: 4rem">
-    <h4>Grido pela liberdade</h4>
+    <h4>Grito pela liberdade</h4>
     <p>
         <i>
             Mulheres que lutaram pela liberdade.<br/>

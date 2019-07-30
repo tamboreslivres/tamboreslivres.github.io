@@ -20,7 +20,7 @@ from Tribo and **Manjericão** from Grove Capoeira.
     </p>
     <p>
         <i>
-            Pedreiro de forgo, Orixá da Justiça.<br/>
+            Pedreiro de fogo, Orixá da Justiça.<br/>
             Senhora do vento com todo esplendor.
         </i>
     </p>

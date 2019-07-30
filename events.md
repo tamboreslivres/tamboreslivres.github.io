@@ -7,9 +7,9 @@ permalink: /events
 ---
 ## Tambores Livres schedule
 {% for event in site.data.events %}
-<span class="date" value="{{event.date}}">**{{event.date | date: '%d %B %Y'}}** — **{{event.name}}** — *{{event.location}}*</span>
+<span class="date" value="{{event.date}}">**{{event.date | date: '%d %B %Y'}}** — **{{event.name}}** — *{{event.location}}* {% if event.map %} <a class="mx-2" href="{{event.map}}" target="_blank"><i class="fas fa-map-marked-alt"></i></a>{% endif%}</span>
 {% endfor %}
-*Address for ~~Maxilla~~: Maxilla Hall Social Club, 2 Maxilla walk,W10 6SW, Hall under the A40 highway, Tube: Latimer Road or Ladbroke Grove 
+*Address for <u>Maxilla</u>: Maxilla Hall Social Club, 2 Maxilla Walk, W10 6SW, Hall under the A40 highway, Tube: Latimer Road or Ladbroke Grove
 <hr class="my-4"/>
 
 ## Mestre Chacon’s schedule

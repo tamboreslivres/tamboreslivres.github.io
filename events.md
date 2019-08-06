@@ -23,10 +23,9 @@ permalink: /events
 function dimDate() {
     var today = new Date();
     $('.date').toArray().forEach(d => {
-            console.log(d)
             date = d.getAttribute("value")
             date = new Date(date)
-            console.log(today, date, today> date)
+            console.log(today, date, today > date)
             if (date < today) {
                 d.className +=' text-muted'
             }

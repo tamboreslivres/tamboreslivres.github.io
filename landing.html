@@ -217,15 +217,19 @@ permalink: '/'
         <div class="row">
             <div class="col-md-12">
                 <div class="row h-50 mt-4">
+                    {% assign today = site.time | date: '%s' %}
+                    {% assign counter = 0 %}
                     {% for event in site.data.events %}
-                    {% if forloop.index0 < 3 %}
-                        {% include
-                        event_card.html
-                        title=event.name
-                        date=event.date
-                        time=event.time
-                        location=event.location%}
-                    {% endif %}
+                        {% assign event_date = event.date | date: '%s' %}
+                        {% if event_date >= today and counter < 3 %}
+                            {% assign counter = counter | plus: 1  %}
+                            {% include
+                            event_card.html
+                            title=event.name
+                            date=event.date
+                            time=event.time
+                            location=event.location%}
+                        {% endif %}
                     {% endfor %}
                 </div>
             </div>

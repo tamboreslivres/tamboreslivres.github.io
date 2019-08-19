@@ -6,7 +6,7 @@ permalink: /music
 header: Music
 ---
 As part of this project, a new song “Grito pela liberdade” was commissioned.
-The song is about freedom and justice and was composed by **Mestre Cachon**
+The song is about freedom and justice and was composed by **Mestre Chacon**
 with support from: **Sam Alexander** from Baque Axe, **Marcos Santana**
 from Tribo and **Manjerico** from Grove Capoeira.
 

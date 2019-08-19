@@ -28,7 +28,7 @@ celebrate the life of Mestre Moa do Katende, who was stabbed and killed in the r
 to last’s year’s General Election in Brazil, when he expressed his support for a socially progressive candidate.
 
 The Berimbau Orchestra is led by **Mestre Joãozinho da Figueira** from Marazul,
-who had a strong relationship with Mestre Moa with support from Manjericao
+who had a strong relationship with Mestre Moa with support from Manjerico
 from capoeira Groves.
 <br/> <br/> <br/>
 
@@ -72,5 +72,5 @@ battalions of indigenous fighters using tribal weapons, the African slaves and f
 the poor and isolated communities that organised themselves to form the majority
 of the troops fighting for liberation.
 
-This section of the parade will be led by Marcus Santana with Tribo Band.
+This section of the parade will be led by Marcos Santana with Tribo Band.
 <br/> <br/> <br/>

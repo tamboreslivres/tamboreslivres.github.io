@@ -1,0 +1,189 @@
+---
+layout: page
+bg: dark
+title: get involved 
+permalink: /get-involved
+---
+<div class="d-flex flex-column align-items-center">
+    <img class="img-fluid"
+         src="/static/img/logo.png"
+         srcset="/static/img/logo-sm.png 640w, /static/img/logo.png"
+         style="max-height: 300px" />
+    <div class="col-md-6 my-4">
+        <h3>GET INVOLVED</h3>
+        <h4>BUY YOUR TEE-SHIRT, PARADE IN CARNIVAL!</h4>
+        <p>
+            We need you! Brazil needs you!
+        </p>
+        <p>
+            Parade with us at Notting Hill Carnival 2019 and celebrate the spirit
+            of Brazilian culture, whilst raising awareness of the social and
+            environmental issues facing Brazil today.
+            No musical or parade experience required just a carnival spirit!
+            We want you to wave a banner, raise a placard, make some noise,
+            and have a fun-filled day to remember!
+        </p>
+        <p>
+            If you want to get involved buy your tee-shirt below It’s only £15 and
+            works as a ticket for non-band members to participate in carnival.
+        </p>
+    </div>
+    <div class="col-md-6 card shadow bg-light p-3 mx-2 text-dark">
+        <h4>Tambores Livres T-Shirt</h4>
+        <div class="text-center">
+            <div>
+                <img class="img-fluid"
+                     style="cursor: pointer"
+                     src="/static/img/tshirt-front-site.png"
+                     srcset="/static/img/tshirt-front-site-sm.png 640w, /static/img/tshirt-front-site.png"
+                     onclick="toggle(this); toggleDot('#buttonBack')"
+                     width="250px"
+                     id="imgFront"/>
+                <img class="img-fluid"
+                     style="cursor: pointer; display: none"
+                     src="/static/img/tshirt-back-site.png"
+                     srcset="/static/img/tshirt-back-site-sm.png 640w, /static/img/tshirt-back-site.png"
+                     width="250px"
+                     id="imgBack"
+                     onclick="toggle(this); toggleDot('#buttonFront')"/>
+            </div>
+            <div class="mb-2">
+                <small>
+                    <i class="fas fa-dot-circle"
+                       style="cursor: pointer"
+                       id="buttonFront"
+                       onclick="toggleDot(this); toggle('#imgBack')"></i>
+                       <i class="far fa-dot-circle"
+                          style="cursor: pointer"
+                          id="buttonBack"
+                          onclick="toggleDot(this); toggle('#imgFront')"></i>
+                </small>
+            </div>
+        </div>
+            <p>
+                Tambores Livres Notting Hill Carnival 2019 T-Shirt<br />
+                Limited edition
+            </p>
+            <div class="my-4 text-center">
+                <strong>
+                    15 GBP + Shipping
+                </strong>
+            </div>
+            <div>
+                <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="hosted_button_id" value="429KUEGZUBHLY">
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <input type="hidden" name="on0" value="Shipping">
+                            <label class="input-group-text bg-transparent border-0 font-weight-bold text-dark">Shipping method</label>
+                        </div>
+                        <select class="custom-select bg-transparent border-0 text-dark"
+                                style="cursor: pointer" name="os0">
+                            <option value="Collect in person">Collect in person - £15</option>
+                            <option value="UK, Royal Mail 1st Class (1-2days)">UK, Royal Mail 1st Class (1-2days) - £18.55</option>
+                        </select>
+                    </div>
+                    <div class="input-group mb-3">
+                        <div class="input-group-prepend">
+                            <input type="hidden" name="on1" value="Sizes">
+                            <label class="input-group-text bg-transparent border-0 font-weight-bold text-dark">Choose your size</label>
+                        </div>
+                        <select class="custom-select bg-transparent border-0 text-dark"
+                                style="cursor: pointer" name="os1">
+                                <option value="Ladies 8">Ladies 8 </option>
+                            	<option value="Ladies 10">Ladies 10 </option>
+                            	<option value="Ladies 12">Ladies 12 </option>
+                            	<option value="Ladies 14">Ladies 14 </option>
+                            	<option value="Ladies 18">Ladies 18 </option>
+                            	<option value="Unisex XS">Unisex XS </option>
+                            	<option value="Unisex M">Unisex M </option>
+                            	<option value="Unisex L">Unisex L </option>
+                            	<option value="Unisex XL">Unisex XL </option>
+                            	<option value="Unisex XXL">Unisex XXL </option>
+                        </select>
+                    </div>
+                    <input type="hidden" name="on2" value="Message">
+                    <label class="input-group-text bg-transparent border-0 font-weight-bold text-dark">Comments (max 200 char.)</label>
+                    <div class="input-group mb-3">
+                        <textarea type="text" class="form-control bg-transparent border-0"
+                                  name="os2" placeholder="Please indicate to which band you belong (if applicable) and how you  would like to collect the t-shirt..."
+                                  style="resize: none; min-height: 100px;"
+                                  maxlength="200"></textarea>
+                    </div>
+                    <input type="hidden" name="currency_code" value="GBP">
+                    <button class="btn btn-primary float-right"
+                            type="submit">Add to Cart <i class="fas fa-cart-plus"></i></i></button>
+                </form>
+            </div>
+            <div class="mt-2">
+                <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post" >
+                    <input type="hidden" name="cmd" value="_s-xclick">
+                    <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
+                    <button type="submit" class="btn btn-primary float-right"
+                            data-toggle="tooltip"
+                            data-placement="left"
+                            title="Pay with your card or your PayPal account">View cart and checkout <i class="fab fa-paypal"></i></button>
+                </form>
+            </div>
+            <div class="d-flex justify-content-between mt-2">
+                    <i class="fas fa-question-circle"
+                       style="cursor: pointer;"
+                       data-toggle="tooltip" data-placement="top"
+                       title="If you need help, please contact shop@tamboreslivres.co.uk"></i>
+                    <small ><i>Powered by PayPal</i></small>
+            </div>
+    </div>
+    <div class="col-md-6 my-4">
+        <h4>STEWARDS NEEDED FOR CARNIVAL!</h4>
+        <p>
+            Volunteers needed to steward with Tambores Livres at Notting Hill
+            Carnival on Monday 26.08.19. Be part of carnival for free!
+        </p>
+        <p>
+            Stewards hold a rope around the parade group, protecting our
+            perimeter, alongside 2 dedicated NHC official stewards and police
+            liaison officer. A plain green tee-shirt provided.
+        </p>
+        <p>
+
+            Tambores Livres, “Free Drums”, is a cultural collaboration
+            bringing together Afro-Brazilian musical and cultural groups
+            to parade together at Notting Hill Carnival 2019. In a Carnival
+            first, 7 groups from the UK and Brazil are performing as one, to
+            celebrate unity and raise awareness for democracy, human and
+            environmental rights, justice and equality in Brazil.
+
+        </p>
+        <p>
+            Please respond by contacting
+            <a href="mailto:stewardstamboreslivres@gmail.com">
+                stewardstamboreslivres@gmail.com
+            </a>
+        </p>
+    </div>
+    <div class="col-md-6 my-4">
+        <h4>After joining</h4>
+        Once you have purchased your t-shirt, you can find more information
+        about the days leading up to the parade <a href="/instructions">here</a>.
+    </div>
+    <!-- <h1 class="mt-4">
+        <a href="mailto:info@tamboreslivres.co.uk"
+            style="text-decoration: none">info@tamboreslivres.co.uk</a>
+    </h1>
+    <h1>
+        <a href="https://www.facebook.com/Tambores-Livres-392532231396179/"
+            style="text-decoration: none">facebook</a>
+    </h1> -->
+</div>
+<script>
+    $('[data-toggle="tooltip"]').tooltip();
+    function toggle(e) {
+        $(e).hide()
+        $(e).siblings().show()
+    }
+    function toggleDot(e) {
+        $(e).removeClass('far').addClass('fas')
+        $(e).siblings().removeClass('fas').addClass('far')
+    }
+</script>

@@ -8,9 +8,7 @@
     url: /collaborators
   - title: music
     url: /music
-  - title: gallery
-    url: /gallery
-  - title: shop
-    url: /shop
-  - title: join
-    url: /join
+  - title: get involved
+    url: /get-involved
+  - title: contact us
+    url: /contact

@@ -5,7 +5,17 @@ layout: page
 graphics: foliage
 permalink: /events
 ---
-## Tambores Livres schedule
+Thank you to all who joined us at Notting Hill Carnival 2019 to celebrate the spirit of Brazilian culture, whilst raising awareness of the social and environmental issues facing Brazil today. It was an amazing day.
+
+We have lots more planned, from fundraising events to education workshops. Please check back soon to find out more.
+
+{% for event in site.data.future-events %}
+<span class="date" value="{{event.date}}">**{{event.date | date: '%d %B %Y'}}** — **{{event.name}}** — *{{event.location}}* {% if event.map %} <a class="mx-2" href="{{event.map}}" target="_blank"><i class="fas fa-map-marked-alt"></i></a>{% endif%}</span>
+{% endfor %}
+
+# PAST EVENTS
+
+## Tambores Livres Notting Hill Carnival schedule
 {% for event in site.data.events %}
 <span class="date" value="{{event.date}}">**{{event.date | date: '%d %B %Y'}}** — **{{event.name}}** — *{{event.location}}* {% if event.map %} <a class="mx-2" href="{{event.map}}" target="_blank"><i class="fas fa-map-marked-alt"></i></a>{% endif%}</span>
 {% endfor %}

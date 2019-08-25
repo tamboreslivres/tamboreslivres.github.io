@@ -2,13 +2,15 @@
     url: /
   - title: about
     url: /about
-  - title: events
-    url: /events
   - title: collaborators
     url: /collaborators
   - title: music
     url: /music
+  - title: events
+    url: /events
   - title: get involved
     url: /get-involved
+  - title: shop
+    url: /shop
   - title: contact us
     url: /contact

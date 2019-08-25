@@ -242,6 +242,14 @@ permalink: '/'
                             location=event.location%}
                         {% endif %}
                     {% endfor %}
+                    {% for event in site.data.future-events %}
+                    {% include
+                    event_card.html
+                    title=event.name
+                    date=event.date
+                    time=event.time
+                    location=event.location%}
+                    {% endfor %}
                 </div>
             </div>
         </div>
